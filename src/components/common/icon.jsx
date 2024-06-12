@@ -2,6 +2,7 @@ export const ThreeStar = () => {
   return (
     <svg
       width="23"
+      className="animate-starbright"
       height="24"
       viewBox="0 0 23 24"
       fill="none"
@@ -26,15 +27,16 @@ export const TickComparison = (props) => {
   return (
     <svg
       width="24"
+      className="w-5 h-5 sm:h-6 md:w-6"
       height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        className={props.class}
+        className="group-hover:fill-white duration-300"
         d="M18.2279 5L9.52207 15.356L4.375 10.7154L2 12.8583L9.91543 20L21 7.14286L18.2279 5Z"
-        fill="black"
+        fill="#494949"
       />
     </svg>
   );
@@ -43,6 +45,7 @@ export const CrossComparison = () => {
   return (
     <svg
       width="24"
+      className="w-5 h-5 sm:h-6 md:w-6"
       height="24"
       viewBox="0 0 24 24"
       fill="none"

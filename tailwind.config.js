@@ -24,7 +24,9 @@ module.exports = {
         skylight: "#CFECFF",
         silverchalice: "#A4A4A4",
         seashell: "#F1F1F1",
-        alto:"#DADADA"
+        alto: "#DADADA",
+        gray: "#B3BAC0",
+        curiousblue: "#2286C9"
       },
       backgroundImage: {
         "skylightgradiant": "linear-gradient(90deg, #58B9F9 1.82%, #0071BC 104.09%)",
@@ -39,8 +41,19 @@ module.exports = {
         hoverresearch: "0px 32px 80px 0px #1A40891F",
       },
       screens: {
-        xxl: "1404px"
-      }
+        xxl: "1404px",
+        lsg: "1080px",
+        xsm: "400px"
+      },
+      animation: {
+        'starbright': 'wiggle 3s linear infinite',
+      },
+      keyframes: {
+        wiggle: {
+          '0%,100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.2)' },
+        }
+      },
     },
   },
   plugins: [],
