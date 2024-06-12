@@ -12,6 +12,8 @@ const AnalysisDashBoard = () => {
             <div className="flex lg:flex-row flex-col items-center md:items-start lg:items-center gap-3 xl:gap-[15px]">
               <img
                 src={yellowChat}
+                width={600}
+                height={372}
                 alt="yellowChat"
                 className="w-full h-full max-h-[356px] duration-300 lsg:max-h-[372px] max-w-[380px] md:max-w-full xl:max-w-[367.96px] rounded-xl shadow-graphshadow"
               />
@@ -19,10 +21,14 @@ const AnalysisDashBoard = () => {
                 <img
                   src={greenChat}
                   alt="greenChat"
+                  height={178}
+                  width={183}
                   className="rounded-xl h-full duration-300 shadow-graphshadow w-[50%] sm:w-full lg:max-h-[178px] max-h-[125px] max-w-[183px]"
                 />
                 <img
                   src={revenueChat}
+                  height={178}
+                  width={183}
                   alt="revenueChat"
                   className="rounded-xl h-full duration-300 lg:mt-3 xl:mt-[15px] shadow-graphshadow w-[50%] sm:w-full lg:max-h-[178px] max-h-[125px] max-w-[183px]"
                 />
