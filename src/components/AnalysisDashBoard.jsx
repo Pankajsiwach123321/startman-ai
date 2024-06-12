@@ -50,7 +50,10 @@ const AnalysisDashBoard = () => {
                 charts, with historical data up to 30 years. Great way to gain
                 fast insights about a stock.
               </p>
-              <GradientSkyButton text="Start Chatting Now" />
+              <GradientSkyButton
+                ariallabel="startchatting"
+                text="Start Chatting Now"
+              />
             </div>
           </div>
         </div>

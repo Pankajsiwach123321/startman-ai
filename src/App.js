@@ -12,6 +12,8 @@ function App() {
       <YourResearch />
       <img
         src={bgBackground}
+        width={1200}
+        height={2135}
         className=" absolute max-w-[1200px] pointer-events-none max-h-[2135px] object-cover mx-auto inset-0 z-[-1] w-full"
         alt="greenChat"
       />

@@ -16,7 +16,11 @@ const YourResearch = () => {
           Stay informed and ahead of the curve with the latest trends, tips, and
           insights in video ad creation and social media marketing.{" "}
         </p>
-        <GradientSkyButton class="flex mx-auto" text="Get Started For Free" />
+        <GradientSkyButton
+          ariallabel="getstarted"
+          class="flex mx-auto"
+          text="Get Started For Free"
+        />
       </div>
     </div>
   );
