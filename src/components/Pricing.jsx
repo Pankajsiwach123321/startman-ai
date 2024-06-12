@@ -13,7 +13,7 @@ const Pricing = () => {
           </span>
         </div>
         <MainHeading
-          class="max-w-[726px]"
+          cutomClass="max-w-[726px]"
           firstwords="Stratman AI Vs "
           lightword="other stock"
           skytext=" research assistants"

@@ -5,9 +5,9 @@ import { GradientSkyButton } from "./common/Button";
 const YourResearch = () => {
   return (
     <div className="px-5 mt-12 md:mt-16 lg:mt-20 xl:mt-[100px] mb-10 overflow-hidden">
-      <div className="max-w-[1424px] lg:py-[100px] py-5 sm:py-[30px] px-[20px] w-full bg-cover md:bg-full bg-no-repeat rounded-2xl md:rounded-[40px] mx-auto bg-midnight bg-[url(./assets/images/webp/research-background.webp)]">
+      <div className="max-w-[1424px] xl:py-[100px] py-5 sm:py-[30px] lg:py-[70px] px-[20px] w-full bg-cover md:bg-full bg-no-repeat rounded-2xl md:rounded-[40px] mx-auto bg-midnight bg-[url(./assets/images/webp/research-background.webp)]">
         <MainHeading
-          class="max-w-[832px] text-highwhite"
+          cutomClass="max-w-[832px] text-highwhite"
           firstwords="Discover how Stratman "
           lightword="AI can supercharge"
           skytext=" your research"

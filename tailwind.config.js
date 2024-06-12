@@ -42,7 +42,7 @@ module.exports = {
       },
       screens: {
         xxl: "1404px",
-        lsg: "1080px",
+        lsg: "1040px",
         xsm: "400px"
       },
       animation: {

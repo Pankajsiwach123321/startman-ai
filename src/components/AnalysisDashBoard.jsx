@@ -6,18 +6,18 @@ import { GradientSkyButton } from "./common/Button";
 const AnalysisDashBoard = () => {
   return (
     <div className="px-5 mt-12 md:mt-16 lg:mt-20 xl:mt-[100px]">
-      <div className="max-w-[1424px] xl:py-[100px] py-4 sm:py-[30px] px-4 sm:px-[30px] bg-cover md:bg-full bg-no-repeat rounded-2xl md:rounded-[40px] mx-auto bg-midnight bg-[url(./assets/images/webp/start-ai-background.webp)]">
+      <div className="max-w-[1424px] xl:py-[100px] py-4 sm:py-[30px] lg:py-[70px] px-4 sm:px-[30px] bg-cover md:bg-full bg-no-repeat rounded-2xl md:rounded-[40px] mx-auto bg-midnight bg-[url(./assets/images/webp/start-ai-background.webp)]">
         <div className="flex flex-wrap -mx-3 justify-center items-center flex-row">
           <div className="md:w-1/2 lg:w-7/12 flex flex-col lg:items-center w-full px-3">
-            <div className="flex lg:flex-row flex-col items-center md:items-start lg:items-center gap-3 xl:gap-[15px]">
+            <div className="flex h-full lg:flex-row flex-col items-center md:items-start lg:items-center gap-3 xl:gap-[15px]">
               <img
                 src={yellowChat}
                 width={367}
                 height={372}
                 alt="yellowChat"
-                className="w-full h-full max-h-[356px] duration-300 lsg:max-h-[372px] max-w-[380px] md:max-w-full xl:max-w-[367.96px] rounded-xl shadow-graphshadow"
+                className="w-full h-full max-h-[348px] duration-300 lsg:max-h-[372px] max-w-[380px] md:max-w-full xl:max-w-[367.96px] rounded-xl shadow-graphshadow"
               />
-              <div className="lg:block w-full justify-center md:justify-between flex flex-row gap-2 sm:gap-[15px]">
+              <div className="lg:block h-full w-full justify-center md:justify-between flex flex-row gap-2 sm:gap-[15px]">
                 <img
                   src={greenChat}
                   alt="greenChat"
