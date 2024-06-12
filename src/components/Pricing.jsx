@@ -7,16 +7,16 @@ const Pricing = () => {
   return (
     <div className="mt-12 md:mt-16 lg:mt-20 xl:mt-[140px]">
       <div className="max-w-[1080px] px-5 md:px-3 mx-auto">
-        <div className=" text-center mb-5">
+        <div className="text-center mb-5">
           <span className="uppercase py-[10.25px] px-[37.89px] bg-skylight text-lochmara leading-[150%] text-base font-medium font-open inline-flex gap-[10px] items-center rounded-[41px]">
             <ThreeStar /> Pricing
           </span>
         </div>
         <MainHeading
           class="max-w-[762px]"
-          firstwords="Stratman AI Vs"
+          firstwords="Stratman AI Vs "
           lightword="other stock"
-          skytext="research assistants"
+          skytext=" research assistants"
         />
         <div className="flex mt-[36px] justify-center -mx-3 flex-row flex-wrap">
           {pricingPlans.map((plan, index) => (

@@ -23,7 +23,7 @@ export const ThreeStar = () => {
     </svg>
   );
 };
-export const TickComparison = (props) => {
+export const TickComparison = () => {
   return (
     <svg
       width="24"
