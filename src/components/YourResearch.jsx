@@ -18,7 +18,7 @@ const YourResearch = () => {
         </p>
         <GradientSkyButton
           ariallabel="getstarted"
-          class="flex mx-auto"
+          custumClass="flex mx-auto"
           text="Get Started For Free"
         />
       </div>
