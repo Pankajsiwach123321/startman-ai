@@ -24,8 +24,8 @@ const Pricing = () => {
               key={index}
               className=" w-full xsm:w-10/12 sm:w-6/12 lg:w-4/12  pt-6 px-3"
             >
-              <div className="py-[28px] px-[22px] bg-seashell after:absolute relative z-[1] overflow-hidden after:duration-300 after:pointer-events-none after:opacity-0 hover:after:opacity-100 after:z-[-1] after:inset-0 after:bg-skydarkgradiant group shadow-research hover:shadow-hoverresearch border-[2px] border-transparent hover:border-highwhite rounded-2xl">
-                <h4 className="lg:text-3xxl md:text-3xl text-xl group-hover:text-highwhite duration-300 text-codgray  font-Anek font-semibold leading-[100%] pb-1 border-b border-b-alto group-hover:border-b-curiousblue">
+              <div className="py-[30px] px-[22px] bg-seashell after:absolute relative z-[1] overflow-hidden after:duration-300 after:pointer-events-none after:opacity-0 hover:after:opacity-100 after:z-[-1] after:inset-0 after:bg-skydarkgradiant group shadow-research hover:shadow-hoverresearch border-[2px] border-transparent hover:border-highwhite rounded-2xl">
+                <h4 className="lg:text-3xxl md:text-3xl text-xl group-hover:text-highwhite duration-300 text-codgray  font-Anek font-semibold !leading-[100%] pb-1 border-b border-b-alto group-hover:border-b-curiousblue">
                   {plan.name}
                 </h4>
                 <ul className="mt-5 sm:mt-6 xl:mt-10">
